@@ -8,9 +8,9 @@ class AnimalTest {
 
     @Test
     void testToString(){
-        Animal animal = new Animal("Capibara");
+        Animal value = new Animal("Capibara");
 
-        String actual = animal.toString();
+        String actual = value.toString();
 
         assertEquals("Capibara", actual);
     }
